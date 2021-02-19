@@ -7,3 +7,6 @@ bubbleCounter :: Ord a => [a] -> Int -> [a]
 bubbleCounter xs i 
             | i == length xs = xs
             | otherwise = bubbleCounter (bubbleUp xs) (i + 1)
+
+bubbleSort :: Ord a => [a] -> [a]
+bubbleSort xs = bubbleCounter xs 0
