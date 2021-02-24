@@ -1,3 +1,5 @@
+module MergeSort(mergeSort) where
+
 getHalf :: Ord a => [a] -> Int -> [a]
 getHalf a valor 
                 | valor == 1 = take (div (length a) 2) a

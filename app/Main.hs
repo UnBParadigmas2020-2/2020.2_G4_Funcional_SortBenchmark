@@ -2,6 +2,8 @@ import GenerateList
 
 main :: IO ()
 main = do
+  putStrLn "Digite o tempo máximo em milissegundos:"
+  maxTime <- getLine
   let lighterList = generateRandomList (getListSize 0)
   let lightList = generateRandomList (getListSize 1)
   let mediumList = generateRandomList (getListSize 2)
