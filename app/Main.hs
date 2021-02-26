@@ -1,29 +1,20 @@
 import GenerateList
+import CalculateTime(benchmarkForAllArrays)
 import InsertionSort (insertionSort)
-
-import Text.Printf
-import Control.Exception
-import System.CPUTime
-
-printBenchmark timeSpent maxTime
-  |timeSpent <= maxTime = printf "Tempo levado: %0.3f sec\n" (timeSpent)
-  |otherwise = printf "time limit exceeded\n"
-
-time :: IO t  -> Double -> IO t
-time a maxTime = do
-    start <- getCPUTime
-    v <- a
-    end   <- getCPUTime
-    let diff = (fromIntegral (end - start)) / (10^12)
-    printBenchmark (diff :: Double) (maxTime)
-    return v
-
-benchmarkForAllArrays algorithm maxTime = do 
-    lighterList <- generateRandomList (getListSize 0)
-    time ((algorithm lighterList) `seq` return ()) maxTime
-    heavyList <- generateRandomList (getListSize 3)
-    time ((algorithm heavyList) `seq` return ()) maxTime
+import BubbleSort (bubbleSort)
+import MergeSort(mergeSort)
+import QuickSort(quickSort)
+import ShellSort(shellSort)
 
 main = do
     maxTime <- getLine
+    print "-------------insertion---------------"
     benchmarkForAllArrays insertionSort (read maxTime :: Double)
+    print "-------------bubble---------------"
+    benchmarkForAllArrays bubbleSort (read maxTime :: Double)
+    print "-------------merge---------------"
+    benchmarkForAllArrays mergeSort (read maxTime :: Double)
+    print "-------------quick---------------"
+    benchmarkForAllArrays quickSort (read maxTime :: Double)
+    print "-------------shell---------------"
+    benchmarkForAllArrays shellSort (read maxTime :: Double)
