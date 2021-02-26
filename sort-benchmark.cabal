@@ -32,7 +32,9 @@ executable sort-benchmark
         GenerateList,
         InsertionSort,
         MergeSort,
-        QuickSort
+        QuickSort,
+        ShellSort,
+        CalculateTime
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
