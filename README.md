@@ -1,33 +1,20 @@
-# RepositorioTemplate
-Esse repositório é para ser utilizado pelos grupos como um template inicial, da home page do Projeto.
-
-**!! *Atenção: Renomeie o seu repositório para (Ano.Semestre)_(Grupo)_(Paradigma)_(NomeDoProjeto)*. !!** 
-
-Paradigmas:
- - Funcional
- - Logico
- - SMA
-
-**!! *Não coloque os nomes dos alunos no título do repositório*. !!**
-
-**!! *Exemplo de título correto: 2020.1_G1_Logico_ProjetoRoteirosAereos*. !!**
- 
- (Apague essa seção)
-
-# NomeDoProjeto
+# SortBenchmark
 
 **Disciplina**: FGA0210 - PARADIGMAS DE PROGRAMAÇÃO - T01 <br>
-**Nro do Grupo**: XX<br>
-**Paradigma**: XXXXXXXXXX<br>
+**Nro do Grupo**: 04<br>
+**Paradigma**: Funcional<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 170033066  |  Esio Gustavo Pereira Freitas |
+| 170050939  |  Lucas Dutra Ferreira do Nascimento |
+| 170017885  |  Marcos Nery Borges Júnior  |
+| 170020461  |  Pedro Henrique Andrade Féo  |
+| 170024334  |  Youssef Muhamad |
 
 ## Sobre 
-Descreva o seu projeto em linhas gerais. 
+O projeto permite que o usuário visualize e compare os tempos que diversos algoritmos de ordenação levam para ordenar listas de tamanhos variados, compostas por elementos aleatórios. Dessa forma, é possível observar quais conseguem performar melhor conforme cresce o tamanho do desafio, e quais são limitados a resolverem problemas menores. Além disso, é possível ver também o quão significativa em Haskell é a vantagem tida nesse quesito pelos algoritmos que utilizam uma lógica mais recursiva, denotando um dos pontos fortes da linguagem.
 
 ## Screenshots
 Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
