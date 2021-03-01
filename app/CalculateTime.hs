@@ -7,7 +7,7 @@ import System.CPUTime
 
 
 printBenchmark timeSpent maxTime
-  |timeSpent <= maxTime = printf "Tempo levado: %0.3f sec\n" (timeSpent)
+  |timeSpent <= maxTime = printf "Tempo levado: %0.8f sec\n" (timeSpent)
   |otherwise = printf "Tempo maximo excedido! Tempo levado: %0.3f sec\n" (timeSpent)
 
 time :: IO t  -> Double -> IO t
