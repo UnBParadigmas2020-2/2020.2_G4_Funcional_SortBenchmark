@@ -20,13 +20,27 @@ O projeto permite que o usuário visualize e compare os tempos que diversos algo
 Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
 
 ## Instalação 
-**Linguagens**: xxxxxx<br>
-**Tecnologias**: xxxxxx<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
-Insira um manual ou um script para auxiliar ainda mais.
-
+**Linguagens**: Haskell<br>
+**Tecnologias**: Cabal<br>
+### Instalação Manual
+#### Pré-requisitos
+Além do Haskell, você também precisará ter o package system Cabal instalado. A depender de como foi a sua instalação do Haskell, ele já está configurado para uso, para conferir, basta utilizar:
+```
+cabal --version
+```
+Caso ele não esteja presente, você pode serguir as instruções (aqui)[https://cabal.readthedocs.io/en/3.4/getting-started.html] para instala-lo.
+#### Execução
+Primeiro, executamos ```cabal update``` para ter certeza que as dependências estão atualizadas, e em seguida basta executar ```cabal run``` para executar o projeto. Tudo na raiz da pasta clonada.
+### Via Docker
+Caso você tenha Docker instalado na sua maquina, temos uma imagem pré-configurada para executar o projeto. Basta executar os seguintes comandos na raiz da pasta clonada e pronto.
+```
+docker build . -t sort-benchmark
+```
+```
+docker run -it sort-benchmark
+```
 ## Uso 
-Explique como usar seu projeto, caso haja algum passo a passo após o comando de execução.
+Você precisará apenas digitar o tempo máximo que os algoritmos poderão levar para a ordenação, separando as casas decimais com ponto (".")
 
 ## Vídeo
 Adicione 1 ou mais vídeos com a execução do projeto.
