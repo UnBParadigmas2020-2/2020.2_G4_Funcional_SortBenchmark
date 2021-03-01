@@ -28,7 +28,7 @@ Além do Haskell, você também precisará ter o package system Cabal instalado.
 ```
 cabal --version
 ```
-Caso ele não esteja presente, você pode serguir as instruções (aqui)[https://cabal.readthedocs.io/en/3.4/getting-started.html] para instala-lo.
+Caso ele não esteja presente, você pode serguir as instruções [aqui](https://cabal.readthedocs.io/en/3.4/getting-started.html) para instala-lo.
 #### Execução
 Primeiro, executamos ```cabal update``` para ter certeza que as dependências estão atualizadas, e em seguida basta executar ```cabal run``` para executar o projeto. Tudo na raiz da pasta clonada.
 ### Via Docker
