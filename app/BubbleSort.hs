@@ -1,3 +1,5 @@
+module BubbleSort(bubbleSort) where
+
 bubbleUp :: Ord a => [a] -> [a]
 bubbleUp [] = []
 bubbleUp [a] = [a]
