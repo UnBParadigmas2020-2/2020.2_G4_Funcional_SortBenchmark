@@ -17,7 +17,8 @@
 O projeto permite que o usuário visualize e compare os tempos que diversos algoritmos de ordenação levam para ordenar listas de tamanhos variados, compostas por elementos aleatórios. Dessa forma, é possível observar quais conseguem performar melhor conforme cresce o tamanho do desafio, e quais são limitados a resolverem problemas menores. Além disso, é possível ver também o quão significativa em Haskell é a vantagem tida nesse quesito pelos algoritmos que utilizam uma lógica mais recursiva, denotando um dos pontos fortes da linguagem.
 
 ## Screenshots
-Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
+<img width="1154" alt="Group 1057" src="https://user-images.githubusercontent.com/29265857/109579021-f3fd8400-7ad6-11eb-870d-0fc1721887de.png">
+
 
 ## Instalação 
 **Linguagens**: Haskell<br>
@@ -44,9 +45,6 @@ Você precisará apenas digitar o tempo máximo que os algoritmos poderão levar
 
 ## Vídeo
 Adicione 1 ou mais vídeos com a execução do projeto.
-
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas a seguir.
 
 ## Fontes
 Caso utilize materiais de terceiros, referencie-os adequadamente.
