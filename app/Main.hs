@@ -2,6 +2,7 @@ import GenerateList
 import CalculateTime(benchmarkForAllArrays)
 import InsertionSort (insertionSort)
 import BubbleSort (bubbleSort)
+import SelectionSort (selectionSort)
 import MergeSort(mergeSort)
 import QuickSort(quickSort)
 import ShellSort(shellSort)
@@ -29,6 +30,13 @@ main = do
     benchmarkForAllArrays bubbleSort heavyList (read maxTime :: Double)
     benchmarkForAllArrays bubbleSort heavierList (read maxTime :: Double)
     benchmarkForAllArrays bubbleSort veryHeavierList (read maxTime :: Double)
+    putStrLn "\n\n-------------selection---------------"
+    benchmarkForAllArrays selectionSort lighterList (read maxTime :: Double)
+    benchmarkForAllArrays selectionSort lightList (read maxTime :: Double)
+    benchmarkForAllArrays selectionSort mediumList (read maxTime :: Double)
+    benchmarkForAllArrays selectionSort heavyList (read maxTime :: Double)
+    benchmarkForAllArrays selectionSort heavierList (read maxTime :: Double)
+    benchmarkForAllArrays selectionSort veryHeavierList (read maxTime :: Double)
     putStrLn "\n\n-------------merge---------------"
     benchmarkForAllArrays mergeSort lighterList (read maxTime :: Double)
     benchmarkForAllArrays mergeSort lightList (read maxTime :: Double)
