@@ -28,13 +28,14 @@ executable sort-benchmark
 
     -- Modules included in this executable, other than Main.
     other-modules: 
-        BubbleSort,
         GenerateList,
+        CalculateTime,
+        BubbleSort,
         InsertionSort,
+        SelectionSort,
         MergeSort,
         QuickSort,
-        ShellSort,
-        CalculateTime
+        ShellSort
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
