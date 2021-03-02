@@ -44,7 +44,12 @@ docker run -it sort-benchmark
 Você precisará apenas digitar o tempo máximo que os algoritmos poderão levar para a ordenação, separando as casas decimais com ponto (".")
 
 ## Vídeo
-Adicione 1 ou mais vídeos com a execução do projeto.
+https://youtu.be/8oALKzbvh0w
 
 ## Fontes
-Caso utilize materiais de terceiros, referencie-os adequadamente.
+- Bubble Sort: https://www.geeksforgeeks.org/bubble-sort/
+- Insertion Sort: https://www.geeksforgeeks.org/insertion-sort/
+- Selection Sort: https://www.geeksforgeeks.org/selection-sort/
+- Shell Sort: https://www.geeksforgeeks.org/shellsort/
+- Merge Sort: https://www.geeksforgeeks.org/merge-sort/
+- Quick Sort: https://www.geeksforgeeks.org/quick-sort/
